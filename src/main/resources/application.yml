@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: FirstService
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 9010
+  shutdown: graceful
+  servlet:
+    context-path: /api
